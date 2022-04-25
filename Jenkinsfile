@@ -20,7 +20,7 @@ pipeline {
         stage ('Deploying app') {
             steps {
             sh '''
-            rsync -rvz -e 'ssh -p 2232' ./ root@52.66.209.9:/var/www/html/laravel/
+            rsync -rvz -e 'ssh -p 2232' ./ root@13.233.183.123:/var/www/html/laravel/
             '''
             }
         }      
