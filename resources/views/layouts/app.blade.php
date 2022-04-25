@@ -32,7 +32,7 @@
 
                 <!-- Branding Image -->
                 <a class="navbar-brand" href="{{ url('/') }}">
-                    Jareer's Task List
+                    Jareer's New Task List
                 </a>
             </div>
 
